@@ -9,6 +9,10 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
 # Initialize the lemmatizer and stopwords
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
