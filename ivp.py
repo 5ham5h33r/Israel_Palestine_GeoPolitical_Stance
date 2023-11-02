@@ -13,6 +13,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('vader_lexicon')
+nltk.download('wordnet')
 
 # Initialize the lemmatizer and stopwords
 lemmatizer = WordNetLemmatizer()
