@@ -12,6 +12,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('vader_lexicon')
 
 # Initialize the lemmatizer and stopwords
 lemmatizer = WordNetLemmatizer()
